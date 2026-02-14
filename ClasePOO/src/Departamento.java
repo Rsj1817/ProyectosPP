@@ -9,6 +9,7 @@ public class Departamento {
     }
 
     public Departamento() {
+        
     }
 
     public Departamento(String edificio, String nombreDepa) {
