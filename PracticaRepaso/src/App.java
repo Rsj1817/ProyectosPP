@@ -37,6 +37,7 @@ public class App {
         doc1.getConsultorio().setNumeroConsultorio(10);
         System.out.println(doc1.getConsultorio().getNumeroConsultorio());
 
+        paciente1.getTipoSangre();
 
     }
 }
