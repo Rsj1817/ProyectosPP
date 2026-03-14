@@ -7,6 +7,7 @@ public class Motor {
     public String toString() {
         return "Tu carro tiene el siguiente motor [caballos=" + caballos + ", tipo=" + tipo + "]";
     }
+    // esto es un ejemplo
 
     public Motor(){
 
