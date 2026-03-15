@@ -18,6 +18,16 @@ public abstract class Dispositivo {
     }
 
 
+    //Metodos abstractos
+    public abstract double consumoEnergia();
+
+    //metodo implementado normal
+    public void encender(){
+        System.out.println("Dispositivo encendido");
+    }
+
+
+    //getter and setter
     public String getMarca() {
         return marca;
     }
