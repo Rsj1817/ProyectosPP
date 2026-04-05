@@ -47,6 +47,15 @@ public class Videojuego {
         this.genero = genero;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+        if (this.id.equals(id)) {
+            return true;
+        }else{
+            return false;
+        }
+    }
+
     
 
 
