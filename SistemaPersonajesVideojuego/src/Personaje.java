@@ -53,9 +53,23 @@ public abstract  class Personaje {
     public String toString() {
         return "Personaje [nombre=" + nombre + ", nivel=" + nivel + ", Rifle" + arma + "]";
     }
-
-
     
+    @Override
+    public boolean equals(Object obj) {
+
+        if (this == obj) return true;
+        if (obj == null) return false;
+        if (getClass() != obj.getClass()) return false;
+
+        Personaje other = (Personaje) obj;
+
+        return this.nombre.equals(other.nombre);
+    }
+    
+    @Override
+    public int hashCode() {
+        return  nombre.hashCode();
+    }
 
 
 

@@ -36,7 +36,7 @@ public class Arma {
     //metodo tostring
     @Override
     public String toString() {
-        return "Tu Arma [nombre=" + nombreArma + ", daño=" + danio + "]";
+        return "Tu Arma [ nombre=" + nombreArma + ", daño=" + danio + " ]";
     }
 
 
