@@ -29,7 +29,7 @@ public class App {
         personajes.add(g1);
         personajes.add(m1);
         personajes.add(m2);
-
+                
         for (Personaje p : personajes) {
             System.out.println(p);
         }
