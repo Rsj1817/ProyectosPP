@@ -1,0 +1,44 @@
+
+body{
+    background-color: rgba(3, 13, 40, 1);
+}
+
+h1{
+    color: rgba(193, 184, 173, 1);
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 1%;
+    text-align: center;
+}
+
+.criaPacifica{
+    background-color: rgba(56, 95, 21, 1);
+    color: rgba(242, 244, 247, 1);
+    display: flex;
+    margin: 101px;
+    margin-top: 30px;
+}
+
+.criaHostil{
+    background-color: rgba(56, 95, 21, 1);
+    color: rgba(242, 244, 247, 1);
+    display: flex;
+    margin: 101px;
+    margin-top: 30px;
+}
+
+.bloqueIcono{
+    padding: 11px;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    margin: 100px;
+}
+
+.letrasTexto{
+    color: rgba(107, 107, 107, 1);
+    margin-left: 50px;
+    text-align: justify;
+    background-color: rgba(25, 27, 32, 1);
+}
