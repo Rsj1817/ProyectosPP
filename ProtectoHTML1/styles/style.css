@@ -1,0 +1,47 @@
+body{
+    background-color: #192430;
+    margin: 10px 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 300%;
+    letter-spacing: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.encabezadoUno{
+    background-color: rgba(38, 56, 41, 1);
+    color: rgba(143, 208, 122, 1);
+    text-align: center;
+    padding: 9px;
+}
+
+.encabezadoDos{
+    background-color: rgba(49, 47, 68, 1);
+    color: rgba(146, 125, 187, 1);
+    text-align: center;
+    padding: 9px;
+}
+
+.contenedorPrincipal{
+    display: flex;
+    margin: 10px 100px;
+}
+
+.contenedorTextos{
+    color: rgba(119, 121, 131, 1);
+    text-align: justify;
+    text-indent: 20px;
+    padding: 20px;
+}
+
+.resaltaPalabras{
+    font-weight: 600;
+    background-color: aqua;
+}
+
+.resaltaPalabras2{
+
+}
