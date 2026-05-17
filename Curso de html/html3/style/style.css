@@ -1,0 +1,29 @@
+body{
+    margin: 0px;
+    background-color: rgba(254, 251, 245, 1);
+}
+
+.subtitulo{
+    color: rgba(122, 109, 172, 1);
+}
+
+#head_principal{
+    display: flex;
+    background-color: rgba(250, 244, 246, 1);
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.header_data{
+    font-size: 20px;
+    letter-spacing: 9px;
+    width: 50%;
+    text-align: right;
+    line-height: 20px;
+}
+
+
+.header_image{
+    width: 50%;
+    text-align: center;
+}
